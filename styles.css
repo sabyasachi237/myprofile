@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(
+      to right top,
+      #aaf0d1,
+      #7fffd4,
+      #40e0d0,
+      #40e0d0,
+      #29ab87
+    );
+}
+.card{
+    background: rgba( 255, 255, 255, 0.20 );
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 30px;
+    color: #434269;
+}
+.glass{
+    padding: 20px 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    height: 4rem;
+    pointer-events: none;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 100px;
+}
+.content{
+    padding: 0 30px;
+}
+
+
+
+  
+  
+  
+  
+  .social-media{
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #5cb196;
+    font-size: 1.7rem;
+    padding: 20px 0;
+  }
+  
+  .fab:hover, .far:hover{
+    color: #434269;
+    cursor: pointer;
+  }
+  
+  .fab:active, .far:active{
+    color: #434269;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .portfolio{
+    background-image: linear-gradient(to top, #dc62e8, #e75edb, #ef5bcf, #f659c2, #fb58b6, #fe5aa8, #ff5d9c, #ff6290, #ff6c82, #ff7775, #ff846a, #ff9162);
+    height: 8rem;
+    border-radius: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .portfolio:hover{
+  cursor: pointer;
+  }
+  
+  .portfolio:hover > .behance{
+    display: none;
+    transition: transform 150ms ease-in-out;
+  }
+  
+  .behance{
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    color: #FFFFFF;
+    letter-spacing: 0.2rem;
+    text-align: center;
+  }
+  
+  .profile{
+    background-image: linear-gradient(to right top, #fad1f0, #f7def8, #f6eafd, #f9f5ff, #ffffff);
+    height: 8rem;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    vertical-align: middle;
+    text-align: center;
+    box-shadow: 1px 1px 5px 0 #a9f6d6;
+  }
+  
+  
+  .fa-behance-square:before{
+    font-size: 3rem;
+  }
+  
+  .fa-github:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .github:hover{
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .github{
+    border-radius: 15px;
+    background: #40e0d0;
+    box-shadow: inset -6px 6px 9px #05c9b5 ,
+                inset 6px -6px 9px #57f7e7;
+    
+    height: 7rem;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 3rem;
+    color: #7af8eb;
+  }
+  
+  .developer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .work-ex{
+    border-radius: 15px;
+    background-image: linear-gradient(
+        to right top,
+        #38fac3
+        #4efae9,
+        #69fdee,
+        #a7fde0,
+        #def8eb,
+    );
+    height: 7rem;
+    width: 48%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: left;
+    box-shadow: 1px 1px 5px 0 #29ab87;
+  
+  }
+  
+  .designation{
+    padding-left: 10px;
+    font-size: small;
+  }
+  
+  .company{
+    padding-left: 10px;
+    font-size: medium;
+    font-weight: 600;
+  }
+  
+  
+  
+  .side-hustle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    color: #89aeac;
+  }
+  
+  .company-name{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    background: rgba( 255, 255, 255, 0.05 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 15px;
+    padding-left: 10px;
+    color: #434269;
+    height: 5rem;
+    box-shadow: 1px 1px 5px 0 #29ab87;
+  }
+  
+  .company-name:hover{
+    background: rgba( 255, 255, 255, 0.40 );
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    cursor: pointer;
+  }
+  
+  
+  
+  
