@@ -54,16 +54,13 @@ body {
   -webkit-backdrop-filter: blur(10.0px);
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  height: 50px;
+  height: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   color: #5cb196;
   font-size: 1.7rem;
   padding: 20px 0;
-  position: absolute;
-  bottom: 0;
-  width: 40%;
 }
 
 .fab:hover,
