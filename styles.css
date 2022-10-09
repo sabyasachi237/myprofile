@@ -190,38 +190,39 @@ body {
 
 
 
-.side-hustle {
+.cv {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   margin-bottom: 20px;
 }
-
+/* 
 .icon {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 3rem;
   width: 3rem;
-  color: #89aeac;
-}
+  color: #010e0d;
+} */
 
-.company-name {
+.icon {
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
+  justify-content: space-evenly;
   margin: 5px 0;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 15px;
   padding-left: 10px;
-  color: #434269;
+  color: #360303;
   height: 5rem;
-  box-shadow: 1px 1px 5px 0 #29ab87;
+  box-shadow: 1px 1px 5px 0 #0c8adf;
 }
 
-.company-name:hover {
+.icon:hover {
   background: rgba(255, 255, 255, 0.40);
   backdrop-filter: blur(10.0px);
   -webkit-backdrop-filter: blur(10.0px);
