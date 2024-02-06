@@ -46,6 +46,53 @@ body {
 
 
 
+.dark-mode-button {
+  background-color: #4d4d4d;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+
+.dark-mode-button:hover {
+  background-color: #ededed;
+  color: #000000;
+}
+
+
+/* Dark mode styles */
+.dark-mode body {
+  background-image: linear-gradient(to right top, #1a1a1a, #333333, #4d4d4d, #666666, #808080);
+  color: #ffffff;
+}
+
+.dark-mode .card {
+  background: rgba(0, 0, 0, 0.20);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+}
+
+.dark-mode .dark-mode-button {
+  background-color: #ededed;
+  color: #000000;
+}
+
+.dark-mode .social-media {
+  background: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+}
+
+
+
+
+
+
 
 
 .social-media {

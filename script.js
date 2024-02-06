@@ -10,3 +10,24 @@ const linkInfo={
 const onHandleClick = (link) => {
     window.location.href = linkInfo[link]
 }
+document.addEventListener("DOMContentLoaded", function() {
+    const buttons = document.querySelectorAll('.dark-mode-button');
+    const body = document.querySelector('body');
+
+    buttons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            // Toggle dark mode by toggling a CSS class on the body
+            body.classList.toggle('dark-mode');
+            
+            // Update button text based on dark mode state
+            if (body.classList.contains('dark-mode')) {
+                button.textContent = "Disable Dark Mode";
+            } else {
+                button.textContent = "Enable Dark Mode";
+            }
+        });
+    });
+});
+
+
+
